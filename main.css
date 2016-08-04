@@ -1,52 +1,52 @@
 html {
   height: 100%;
 }
+h1 {
+  color: rgb(56, 37, 170);
+  text-shadow: 0 0 7px rgb(251, 62, 11);
+}
 
 body {
+  padding-right: 300px;
   height: 100%;
-  background-color: rgb(209, 225, 232);
-  font-family: sans-serif;
+  text-shadow: 0 0 7px #ed0909;
+  font-family: 'waltograph';
+  font-size: 60px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  background-image: url('Mickey-Mouse-Wallpaper-14.jpg');
+  background-size: cover;
+  color: rgb(246, 255, 75);
+  overflow: hidden;
 }
 
 .input {
   display: flex;
-  justify-content: space-around;
 }
 
 .input button {
   margin: 2em;
   color: transparent;
-  background-color: rgb(136, 187, 190);
+  background-color: rgb(251, 62, 11);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   height: 150px;
   width: 150px;
-
+  border-color: yellow;
+  padding-bottom: 175px;
+  padding-right: 150px;
+  margin-bottom: 200px;
+  border-radius:20px;
 }
 
-.input button.rock {
-  background-image: url('../images/rock.png')
-}
-
-.input button.scissors {
-  background-image: url('../images/scissors.png')
-}
-
-.input button.paper {
-  background-image: url('../images/paper.png')
-}
-
-.output {
+.output button{
   margin: auto 2em;
-  font-size: 1.5em;
   padding: 1em;
+  background-color: rgb(77, 204, 212);
   border-radius: 5px;
-  border: 2px solid rgb(41, 109, 128);
   background-color: rgb(75, 200, 235);
 }
